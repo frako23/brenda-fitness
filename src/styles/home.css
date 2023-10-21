@@ -1,0 +1,15 @@
+.main__header {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.main__header-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}

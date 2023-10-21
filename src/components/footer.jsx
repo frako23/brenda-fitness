@@ -1,8 +1,8 @@
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
+	<footer style={{textAlign: 'center'}}>
 		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
+			
+			<a href="https://frako-dev.vercel.app/">Developed by frakoDev</a>
 		</p>
 	</footer>
 );

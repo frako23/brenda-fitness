@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*, * ::before, *::after{
+    margin: 0;
+    /* padding: 0; */
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #03747C;
+    --color-secondary: #ffb116;
+    --atoll-50: #effefd;
+    --atoll-100: #c7fffc;
+    --atoll-200: #8efffb;
+    --atoll-300: #4efaf8;
+    --atoll-400: #1ae4e7;
+    --atoll-500: #01c4cb;
+    --atoll-600: #009ba4;
+    --atoll-700: #03747c;
+    --atoll-800: #085f67;
+    --atoll-900: #0c5055;
+    --atoll-950: #002e34;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+
+    --transition: all 500ms ease;
+}
+
+/* GENERAL STYLES */
+body {
+    background: black;
+    color: var(--atoll-100);
+    line-height: 1.7;
+    overflow-x: hidden;
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: var(--atoll-100)
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: var(--atoll-50)
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
