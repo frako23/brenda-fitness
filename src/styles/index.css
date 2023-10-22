@@ -68,3 +68,36 @@ img {
     object-fit: cover;
     width: 100%;
 }
+
+/* GENERAL BUTTON CLASSES */
+
+    .btn {
+        color: var(--atoll-50);
+        width: fit-content;
+        margin: 0 auto;
+        padding: 0.9rem 2rem;
+        background-color: var(--color-primary);
+        border-radius: 1.5rem;
+        transition: var(--transition);
+    }
+
+    .btn:hover {
+        background: var(--color-secondary);
+        color: #002e34;
+        font-weight: bold;
+    }
+
+    .btn.lg {
+        padding: 1.2rem 3rem;
+        border-radius: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .btn.sm {
+        padding: 0.4rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .btn.nm:hover {
+        background: var(--atoll-100);
+    }

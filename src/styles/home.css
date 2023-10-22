@@ -12,4 +12,49 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
+    gap: 6rem;
 }
+
+.main__header-left {
+    margin-top: -3rem;
+
+}
+
+.main__header-left h4 {
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+    font-size: 2.5rem;
+    font-weight: 400;
+    transition: var(--transition);
+}
+
+.main__header-left h4:hover {
+    font-weight: bold;
+    color: var(--atoll-400);
+}
+
+.main__header-left p {
+    margin: 1rem 0 3.5rem;
+    font-size: 1.1rem;
+}
+
+.main__header-rigth {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.main__header-circle {
+    width: 24rem;
+    height: 22rem;
+    background: linear-gradient(75deg, var(--color-secondary), transparent);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 4rem;
+    filter: blur(15px);
+}
+
+.main__header-image {
+    position: relative;
+}
+
