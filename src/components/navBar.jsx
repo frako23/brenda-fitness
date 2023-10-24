@@ -37,7 +37,7 @@ export const Navbar = () => {
             onClick={() => setIsNavShowing(!isNavShowing)}
             className={({ isActive }) => (isActive ? "active-nav" : "")}
           >
-            PORTFOLIO
+            PROGRAMS
           </NavLink>
           </li>
           <li>
