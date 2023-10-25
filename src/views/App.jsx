@@ -1,8 +1,8 @@
 import { useContext } from 'react'
 import { Context } from "../store/appContext";
 import { Headers } from '../components/header';
-import { SectionHead } from '../components/sectionHead';
 import { Programs } from '../components/programs';
+import { Values } from '../components/values';
 
 function App() {
   // const { store, actions } = useContext(Context);
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Headers />
-      {/* <SectionHead /> */}
       <Programs />
+      <Values />
     </>
   )
 }

@@ -117,7 +117,7 @@ section {
     background: var(--atoll-500);
     padding: 0.3rem 0.8rem;
     border-radius: 1rem;
-    color: var(--color-secondary);
+    color: black;
     font-size: 1.5rem;
 }
 
