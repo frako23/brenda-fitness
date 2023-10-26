@@ -3,6 +3,7 @@ import { Context } from "../store/appContext";
 import { Headers } from '../components/header';
 import { Programs } from '../components/programs';
 import { Values } from '../components/values';
+import { FAQs } from '../components/FAQs';
 
 function App() {
   // const { store, actions } = useContext(Context);
@@ -12,6 +13,7 @@ function App() {
       <Headers />
       <Programs />
       <Values />
+      <FAQs />
     </>
   )
 }

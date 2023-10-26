@@ -31,7 +31,7 @@
     --transition: all 500ms ease;
 }
 
-/* GENERAL STYLES */
+/* ----------------------------- GENERAL STYLES ----------------------------- */
 body {
     background: black;
     color: var(--atoll-100);
@@ -39,6 +39,16 @@ body {
     overflow-x: hidden;
     font-family: Lato, sans-serif;
 }
+
+/* .fontColor{
+    color: var(--atoll-950);    
+    transition: var(--transition);
+}
+
+.fontColor:hover{
+    color: var(--atoll-50);    
+} */
+
 
 .container {
     width: var(--container-width-lg);
@@ -69,7 +79,7 @@ img {
     width: 100%;
 }
 
-/* GENERAL BUTTON CLASSES */
+/* ------------------------- GENERAL BUTTON CLASSES ------------------------- */
 
     .btn {
         color: var(--atoll-50);
@@ -102,7 +112,7 @@ img {
         background: var(--atoll-100);
     }
 
-/* SECTION STYLES */
+/* ----------------------------- SECTION STYLES ----------------------------- */
 section {
     margin-top: 10rem;
 }
@@ -114,15 +124,15 @@ section {
 }
 
 .section__head span {
-    background: var(--atoll-500);
+    background: var(--atoll-600);
     padding: 0.3rem 0.8rem;
     border-radius: 1rem;
-    color: black;
+    color: var(--atoll-50);
     font-size: 1.5rem;
 }
 
 .card {
-    background-color: var(--atoll-500);
+    background-color: var(--atoll-600);
     border: 2px solid transparent;
     text-align: center;
     padding: 3rem 2rem;
@@ -162,7 +172,7 @@ section {
     font-weight: 300;
 }
 
-/* PROGRAMS SECTION */
+/* ---------------------------- PROGRAMS SECTION ---------------------------- */
 
 .programs {
     margin-top: 4rem;

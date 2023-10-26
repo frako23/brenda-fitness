@@ -58,7 +58,7 @@
     position: relative;
 }
 
-/* VALUES */
+/* --------------------------------- VALUES --------------------------------- */
 .values__container {
     display: grid;
     grid-template-columns: 38% 50%;
@@ -93,4 +93,48 @@
 .card.values__value span {
     position: absolute;
     top: -1.5rem;
+}
+
+/* ---------------------------------- FAQs ---------------------------------- */
+.faqs__wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 1.5rem;
+    align-items: flex-start;
+    transition: var(--transition);
+}
+
+.faq {
+    background: var(--atoll-600);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.faq div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq__icon {
+    background: transparent;
+    color: var(--atoll-50);
+    font-size: 1.5rem;
+}
+
+.faq p {
+margin-top: 1.5rem;
+}
+
+.show_P {
+    height: 200px;
+    transition: var(--transition);
+}
+
+.not_show_P {
+    height: 0 ;
+    transition: var(--transition);
+    color: transparent
 }

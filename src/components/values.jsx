@@ -17,7 +17,7 @@ export const Values = () => {
         </div>
         <div className="values__right">
           <SectionHead icon={<GiCutDiamond />}  title="Values" />
-          <p>
+          <p >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga est
             laudantium suscipit quasi. Sapiente, dolor delectus? Quo earum quod
             ex.
@@ -30,8 +30,8 @@ export const Values = () => {
                   <span>
                     <i className={icon}></i>
                   </span>
-                  <h4>{title}</h4>
-                  <small style={{marginBottom:"2rem"}}>{info}</small>
+                  <h4 className="fontColor">{title}</h4>
+                  <small className="fontColor" style={{marginBottom:"2rem"}}>{info}</small>
                   <Link to={path} className="btn sm">
                     Learn More{" "}
                     <i
