@@ -81,3 +81,37 @@ export const faqs = [
     answer: "No, you do not need to own a pole. We provide poles in the classes and offer Pole Playground as an option for those that don’t own their own pole; however you may want to purchase a pole of your own if you plan on pole being your routine workout. That way you can practice anytime you want and show off your skills to that special someone! We have X-Pole brand poles available for purchase through the studio. Inquire today!"
 }
 ]
+
+export const testimonials = [
+    {
+    id:1,
+    name: "Britney Spears",
+    quote: "Brenda is a great teacher, so passionate",
+    avatar: "https://img.freepik.com/free-psd/3d-illustration-person-with-pink-hair_23-2149436186.jpg?w=740&t=st=1698661352~exp=1698661952~hmac=9e6107c47288159697e447e94aa3ea6e2bc825836695e0859e63091fca455478"
+},{
+    id:2,
+    name: "Christina Aguilera",
+    quote: "I thought I couldn't do pole dance, but with Brenda all those fears desapeared",
+    avatar: "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses-green-hair_23-2149436201.jpg?w=740&t=st=1698661370~exp=1698661970~hmac=a7d3f48e45f342d31adc6bb65592a1eafcd0789e9963405e1e81b2c645ff944f"
+},{
+    id:3,
+    name: "Rita Ora",
+    quote: "Brenda taught me cool new figures, I´m so happy",
+    avatar: "https://img.freepik.com/free-psd/3d-render-avatar-character_23-2150611716.jpg?w=740&t=st=1698661416~exp=1698662016~hmac=07560bdb9d35fe0527a396bba09c87cc935000c05154de0aa7096c73437e861d"
+},{
+    id:4,
+    name: "Dua Lippa",
+    quote: "I´m a pole dance teacher and Brenda is helping me to improve my weak points",
+    avatar: "https://img.freepik.com/free-psd/3d-illustration-person-with-pink-hat_23-2149436195.jpg?w=740&t=st=1698661446~exp=1698662046~hmac=13caae668202f6b66223ca540a932b849da8d166890e08a8466e8eb0fcdf1be3"
+},{
+    id:5,
+    name: "Taylor Swift",
+    quote: "Brenda is so sweet and always happy to teach and help",
+    avatar: "https://img.freepik.com/free-psd/3d-illustration-person_23-2149436182.jpg?w=740&t=st=1698661481~exp=1698662081~hmac=5b2541156b664f1eb899772d6ae08418b88d3380df2d4f62a59070c1f5a33b4c"
+},{
+    id:6,
+    name: "Arianna Grande",
+    quote: "I saw her on Instagram and I thought she has to be my teacher!!",
+    avatar: "https://img.freepik.com/free-psd/3d-render-avatar-character_23-2150611698.jpg?w=740&t=st=1698661531~exp=1698662131~hmac=45ee193f489362f5dcb392bcf7b7bbcaacbdb6fbc9ea69378b4a70b7fca86b5b"
+}
+]
