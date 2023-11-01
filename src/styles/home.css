@@ -406,6 +406,9 @@ footer {
     .main__header-image{
         margin-top: 7rem;
     }
+    .programs {
+        margin-top: 12rem;
+    }
 }
 
 @media screen and (max-width: 330px) { 
