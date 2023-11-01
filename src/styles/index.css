@@ -1,43 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
-*, * ::before, *::after{
-    margin: 0;
-    /* padding: 0; */
-    border: 0;
-    outline: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+*,
+* ::before,
+*::after {
+  margin: 0;
+  /* padding: 0; */
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-:root{
-    --color-primary: #03747C;
-    --color-secondary: #ffb116;
-    --atoll-50: #effefd;
-    --atoll-100: #c7fffc;
-    --atoll-200: #8efffb;
-    --atoll-300: #4efaf8;
-    --atoll-400: #1ae4e7;
-    --atoll-500: #01c4cb;
-    --atoll-600: #009ba4;
-    --atoll-700: #03747c;
-    --atoll-800: #085f67;
-    --atoll-900: #0c5055;
-    --atoll-950: #002e34;
+:root {
+  --color-primary: #03747c;
+  --color-secondary: #ffb116;
+  --atoll-50: #effefd;
+  --atoll-100: #c7fffc;
+  --atoll-200: #8efffb;
+  --atoll-300: #4efaf8;
+  --atoll-400: #1ae4e7;
+  --atoll-500: #01c4cb;
+  --atoll-600: #009ba4;
+  --atoll-700: #03747c;
+  --atoll-800: #085f67;
+  --atoll-900: #0c5055;
+  --atoll-950: #002e34;
 
-    --container-width-lg: 80%;
-    --container-width-md: 90%;
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
 
-    --transition: all 500ms ease;
+  --transition: all 500ms ease;
 }
 
 /* ----------------------------- GENERAL STYLES ----------------------------- */
 body {
-    background: black;
-    color: var(--atoll-100);
-    line-height: 1.7;
-    overflow-x: hidden;
-    font-family: Lato, sans-serif;
+  background: black;
+  color: var(--atoll-100);
+  line-height: 1.7;
+  overflow-x: hidden;
+  font-family: Lato, sans-serif;
 }
 
 /* .fontColor{
@@ -49,150 +51,175 @@ body {
     color: var(--atoll-50);    
 } */
 
-
 .container {
-    width: var(--container-width-lg);
-    max-width: 1920px;
-    margin-inline: auto;
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
 }
 
-h1, h2, h3, h4, h5 {
-    line-height: 1.2;
-    color: var(--atoll-100)
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  color: var(--atoll-100);
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 a {
-    color: var(--atoll-50)
+  color: var(--atoll-50);
 }
 
 img {
-    display: block;
-    object-fit: cover;
-    width: 100%;
+  display: block;
+  object-fit: cover;
+  width: 100%;
 }
 
 /* ------------------------- GENERAL BUTTON CLASSES ------------------------- */
 
-    .btn {
-        color: var(--atoll-50);
-        width: fit-content;
-        margin: 0 auto;
-        padding: 0.9rem 2rem;
-        background-color: var(--color-primary);
-        border-radius: 1.5rem;
-        transition: var(--transition);
-    }
+.btn {
+  color: var(--atoll-50);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background-color: var(--color-primary);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
 
-    .btn:hover {
-        background: var(--color-secondary);
-        color: #002e34;
-        font-weight: bold;
-    }
+.btn:hover {
+  background: var(--color-secondary);
+  color: #002e34;
+  font-weight: bold;
+}
 
-    .btn.lg {
-        padding: 1.2rem 3rem;
-        border-radius: 2rem;
-        font-size: 1.1rem;
-    }
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
 
-    .btn.sm {
-        padding: 0.4rem 1.2rem;
-        font-size: 0.9rem;
-    }
+.btn.sm {
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
 
-    .btn.nm:hover {
-        background: var(--atoll-100);
-    }
+.btn.nm:hover {
+  background: var(--atoll-100);
+}
 
 /* ----------------------------- SECTION STYLES ----------------------------- */
 section {
-    margin-top: 10rem;
+  margin-top: 10rem;
 }
 
 .section__head {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .section__head span {
-    background: var(--atoll-600);
-    padding: 0.3rem 0.8rem;
-    border-radius: 1rem;
-    color: var(--atoll-50);
-    font-size: 1.5rem;
+  background: var(--atoll-600);
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  color: var(--atoll-50);
+  font-size: 1.5rem;
 }
 
 .card {
-    background-color: var(--atoll-600);
-    border: 2px solid transparent;
-    text-align: center;
-    padding: 3rem 2rem;
-    border-radius: 0 3rem 0 3rem;
-    transition: var(--transition);
+  background-color: var(--atoll-600);
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 0 3rem 0 3rem;
+  transition: var(--transition);
 }
 
 .card:hover {
-    background: transparent;
-    border-color: var(--atoll-400);
-    cursor: default;
+  background: transparent;
+  border-color: var(--atoll-400);
+  cursor: default;
 }
 
 .card span {
-    width: 3rem;
-    height: 3rem;
-    background: var(--color-primary);
-    color: var(--atoll-50);
-    font-size: 1.5rem;
-    padding: 0.8rem;
-    display: grid;
-    place-items: center;
-    margin-bottom: 1.5rem;
-    margin-inline: auto;
-    border-radius: 1rem;
-    transition: var(--transition);
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-primary);
+  color: var(--atoll-50);
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
 }
 
 .card:hover span {
-    background: var(--color-secondary);
-    color: var(--atoll-950);
+  background: var(--color-secondary);
+  color: var(--atoll-950);
 }
 
 .card small {
-    margin-top: 1rem;
-    display: block;
-    font-weight: 300;
+  margin-top: 1rem;
+  display: block;
+  font-weight: 300;
 }
 
 /* ---------------------------- PROGRAMS SECTION ---------------------------- */
 
 .programs {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .programs__wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
-    margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
 }
 
 .programs__wrapper a {
-    margin-top: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .programs__wrapper:hover a {
-    background: var(--color-secondary);
-    color: var(--atoll-950);
+  background: var(--color-secondary);
+  color: var(--atoll-950);
+}
+
+/* --------------------- MEDIA QUERIES (Laptops) --------------------- */
+@media screen and (max-width: 1024px) {
+
+.container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+
+/* ---------------------- MEDIA QUERIES (small screen) ---------------------- */
+@media screen and {
+    
 }
