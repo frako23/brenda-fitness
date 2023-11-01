@@ -400,13 +400,21 @@ footer {
 @media screen and (max-width: 380px) { 
     .main__header-circle{
         margin-left: 3rem;
-        margin-top: 4rem;
+        margin-top: 6rem;
+    }
+
+    .main__header-image{
+        margin-top: 7rem;
     }
 }
 
 @media screen and (max-width: 330px) { 
     .main__header-circle{
-        margin-left: 2rem;
-        margin-top: 3rem;
+        margin-left: 1.5rem;
+        margin-top: 5rem;
+    }
+    
+    .main__header-image{
+        margin-top: 7rem;
     }
 }
