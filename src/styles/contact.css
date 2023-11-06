@@ -35,3 +35,72 @@
         border-radius: 1rem;
     }
 }
+
+/* ------------------------------ CONTACT FORM ------------------------------ */
+.Contact__2 .left {
+    width: 36%;
+  }
+  .Contact__2 .right {
+    width: 60%;
+  }
+  .Contact__2 .box {
+    padding: 30px;
+  }
+  .Contact__2 .details h1 {
+    margin: 20px 0 20px 0;
+    font-size: 35px;
+    color: black;
+  }
+  .Contact__2 .details p {
+    font-size: 17px;
+    color: black;
+  }
+  .Contact__2 .button {
+    margin-top: 20px;
+  }
+  .Contact__2 button {
+    margin-right: 20px;
+  }
+  
+  .Contact__2 .right {
+    padding: 35px;
+  }
+  .Contact__2 .input span {
+    font-size: 13px;
+  }
+  .Contact__2 input {
+    margin-top: 10px;
+  }
+  .Contact__2 .right button {
+    width: 100%;
+    color: #35ad94;
+  }
+  .Contact__2 .right button:hover {
+    color: white;
+  }
+  .Contact__2 .right button i {
+    margin-left: 10px;
+  }
+  @media (max-width: 768px) {
+    .Contact__2 .d_flex {
+      flex-direction: column;
+    }
+    .Contact__2 .left,
+    .Contact__2 .right {
+      width: 100%;
+      margin-top: 50px;
+    }
+  }
+  
+  .container_contact {
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 1.5rem;
+    /* background-color: $cod */
+    
+  }
+  

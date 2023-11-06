@@ -1,6 +1,9 @@
 .about__section-image {
-    border-radius: 50%;
-    overflow: 50%;
+    /* border-radius: 50%;
+    overflow: 50%; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem; */
 }
 
 .about__section-content h1 {
