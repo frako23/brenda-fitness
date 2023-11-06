@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export function Programs() {
   return (
-    <section className="programs">
+    <section className="programs" id="programs">
       <div className="container program__container">
         <SectionHead
           icon={<FaCrown />}

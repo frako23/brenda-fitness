@@ -24,7 +24,7 @@ export const Navbar = () => {
           </li>
           <li>
           <NavLink
-            to="/about"
+            to="/aboutme"
             onClick={() => setIsNavShowing(!isNavShowing)}
             className={({ isActive }) => (isActive ? "active-nav" : "")}
           >
@@ -33,11 +33,11 @@ export const Navbar = () => {
           </li>
           <li>
           <NavLink
-            to="/services"
+            to="/gallery"
             onClick={() => setIsNavShowing(!isNavShowing)}
             className={({ isActive }) => (isActive ? "active-nav" : "")}
           >
-            PROGRAMS
+            MY GALLERY
           </NavLink>
           </li>
           <li>
