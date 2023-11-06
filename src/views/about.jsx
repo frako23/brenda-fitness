@@ -2,8 +2,15 @@ import { Header } from "../components/header";
 import "../styles/about.css";
 import header from "../assets/imgs/pole.jpeg";
 import pic from "../assets/imgs/pic.jpeg";
+import { useEffect } from "react";
 
 export function About() {
+  useEffect(() =>{
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+}, [])
   return (
     <>
       <Header title="About Me" image={header}>

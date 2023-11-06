@@ -5,7 +5,8 @@ import { BsMessenger } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Swal from 'sweetalert2'
 import { useForm, ValidationError } from "@formspree/react";
-import header from "../assets/imgs/pole.jpg";
+import header from "../assets/imgs/pole.jpeg";
+import { useEffect } from "react";
 
 export const Contact = () => {
 
@@ -21,6 +22,13 @@ export const Contact = () => {
     });
     document.getElementById("contact-form").reset();
   }
+
+useEffect(() =>{
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+}, [])
 
     return (
         <>

@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { Context } from "../store/appContext";
 import { Programs } from '../components/programs';
 import { Values } from '../components/values';
@@ -8,7 +8,12 @@ import { MainHeader } from '../components/mainHeader';
 
 function App() {
   // const { store, actions } = useContext(Context);
-
+  useEffect(() =>{
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+}, [])
   return (
     <>
       <MainHeader />
