@@ -2,6 +2,8 @@ import { Header } from "../components/header"
 import "../styles/gallery.css"
 import header from "../assets/imgs/pole.jpeg";
 import { useEffect } from "react";
+import { InstagramEmbed } from 'react-social-media-embed';
+import { igPosts } from "../assets/data/igPosts";
 
 export function Gallery() {
     useEffect(() =>{
@@ -18,7 +20,9 @@ export function Gallery() {
         <section className="gallery">
             <div className="container gallery__container">
                 {
-                    
+                    igPosts.map((post) => (
+                        <InstagramEmbed url={post.url} key={post.id}/>
+                    ))
                 }
             </div>
         </section>
