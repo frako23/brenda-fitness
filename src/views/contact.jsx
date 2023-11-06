@@ -5,7 +5,7 @@ import { BsMessenger } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Swal from 'sweetalert2'
 import { useForm, ValidationError } from "@formspree/react";
-import header from "../assets/imgs/header.jpg";
+import header from "../assets/imgs/pole.jpg";
 
 export const Contact = () => {
 

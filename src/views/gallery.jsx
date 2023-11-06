@@ -1,6 +1,6 @@
 import { Header } from "../components/header"
 import "../styles/gallery.css"
-import header from "../assets/imgs/header.jpg";
+import header from "../assets/imgs/pole.jpeg";
 
 export function Gallery() {
     return(

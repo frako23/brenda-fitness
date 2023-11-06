@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import header from "../assets/imgs/hero2.png";
 import "../styles/home.css";
 
+
 export function MainHeader() {
   return (
     <header className="main__header">
