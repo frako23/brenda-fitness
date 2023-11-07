@@ -5,6 +5,7 @@ import { Values } from '../components/values';
 import { FAQs } from '../components/FAQs';
 import { Testimonials } from '../components/testimonials';
 import { MainHeader } from '../components/mainHeader';
+import { Video } from '../components/video';
 
 function App() {
   // const { store, actions } = useContext(Context);
@@ -16,6 +17,7 @@ function App() {
 }, [])
   return (
     <>
+      <Video />
       <MainHeader />
       <Programs />
       <Values />

@@ -9,7 +9,7 @@ export function MainHeader() {
       <div className="container main__header-container">
         <div className="main__header-left">
           <h4>
-            Fitness is my <span>PASSION</span>
+            Pole Dance is my <span>PASSION</span>
           </h4>
           <h1>Brenda Orozco Personal Trainer</h1>
           <p>
